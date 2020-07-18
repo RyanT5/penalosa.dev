@@ -1,0 +1,79 @@
+baseurl = "/"
+title = "Samuel Macleod"
+theme = "hugo-coder"
+languagecode = "en"
+defaultcontentlanguage = "en"
+
+paginate = 20
+canonifyurls = true
+
+pygmentsstyle = "bw"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+disqusShortname = "yourdiscussshortname"
+
+[params]
+    author = "Hi, I'm Samuel"
+    info = "AKA @penalosa"
+    description = "A website telling the story of Samuel"
+    keywords = "blog,developer,personal"
+    avatarurl = "samuel.jpg"
+
+    #favicon_32 = "/img/favicon-32x32.png"
+    #favicon_16 = "/img/favicon-16x16.png"
+
+    #footercontent = "Enter a text here."
+
+    hidecredits = true
+    hidecopyright = true
+
+    rtl = false
+
+    math = true
+    custom_css = ["css/custom.css"]
+
+# Social links
+[[params.social]]
+    name = "Github"
+    icon = "fab fa-github fa-2x"
+    weight = 1
+    url = "https://github.com/penalosa/"
+[[params.social]]
+    name = "LinkedIn"
+    icon = "fab fa-linkedin"
+    weight = 2
+    url = "https://www.linkedin.com/in/penalosa/"
+[[params.social]]
+    name = "Twitter"
+    icon = "fab fa-twitter"
+    weight = 3
+    url = "https://twitter.com/samuelpmacleod"
+#[[params.social]]
+#    name = "LinkedIn"
+#    icon = "fab fa-dribbble"
+#    weight = 4
+#    url = "https://www.linkedin.com/in/ryan-schuller/"
+#[[params.social]]
+#    name = "LinkedIn"
+#    icon = "fab fa-behance"
+#    weight = 5
+#    url = "https://www.linkedin.com/in/ryan-schuller/"
+
+# Menu links
+[[menu.main]]
+    name = "About"
+    weight = 1
+    url  = "/about/"
+#[[menu.main]]
+#    name = "Projects"
+#    weight = 2
+#    url = "/projects/"
+[[menu.main]]
+    name = "Blog"
+    weight = 3
+    url = "/posts/"
+#[[menu.main]]
+#    name = "Contact"
+#    weight = 4
+#    url = "/contact/"
